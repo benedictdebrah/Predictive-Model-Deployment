@@ -1,0 +1,64 @@
+{
+    "sample_data": [
+        {
+            "wine_type": "red",
+            "alcohol": 10.2,
+            "citric_acid": 0.08,
+            "density": 0.99484,
+            "ph": 3.5,
+            "residual_sugar": 1.9,
+            "total_sulfur_dioxide": 31.0,
+            "fixed_acidity": 5.4
+        },
+        {
+            "wine_type": "white",
+            "alcohol": 12.2,
+            "citric_acid": 0.22,
+            "density": 0.99076,
+            "ph": 2.97,
+            "residual_sugar": 4.5,
+            "total_sulfur_dioxide": 73.0,
+            "fixed_acidity": 7.2
+        },
+        {
+            "wine_type": "white",
+            "alcohol": 9.8,
+            "citric_acid": 0.31,
+            "density": 0.9942,
+            "ph": 3.41,
+            "residual_sugar": 5.2,
+            "total_sulfur_dioxide": 120.0,
+            "fixed_acidity": 6.8
+        },
+        {
+            "wine_type": "white",
+            "alcohol": 9.7,
+            "citric_acid": 0.24,
+            "density": 0.9956,
+            "ph": 3.21,
+            "residual_sugar": 6.0,
+            "total_sulfur_dioxide": 77.0,
+            "fixed_acidity": 7.1
+        },
+        {
+            "wine_type": "white",
+            "alcohol": 9.7,
+            "citric_acid": 0.69,
+            "density": 0.9931,
+            "ph": 3.06,
+            "residual_sugar": 1.3,
+            "total_sulfur_dioxide": 171.0,
+            "fixed_acidity": 6.8
+        }
+    ],
+    "data_types": {
+        "wine_type": "object",
+        "alcohol": "float64",
+        "citric_acid": "float64",
+        "density": "float64",
+        "ph": "float64",
+        "residual_sugar": "float64",
+        "total_sulfur_dioxide": "float64",
+        "fixed_acidity": "float64"
+    }
+}
